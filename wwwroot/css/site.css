@@ -1,0 +1,125 @@
+﻿html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.my-navbar {
+    background-color: white;
+    display: inline-flex;
+    padding-left: 2em;
+    padding: 0.6em 2em 0.6em 2em;
+    width: 100%;
+    margin-bottom: 5em;
+    font-family: verdana;
+    box-shadow: 0 1px 3px -1px hsl(50, 10%, 20%);
+}
+
+.my-navbar li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.my-navbar li a {
+    text-decoration: none;
+    margin: 0em 0.6em 0em 0.6em;
+    padding: 0.6em 0.7em 0.6em 0.7em;
+    color: black;
+}
+
+.my-navbar li a:hover {
+    background: #ead4ff54;
+    border-radius: 0.3em;
+}
+
+.my-navbar ul {
+    display: inline-block;
+    margin: auto;
+}
+
+.my-navbar .left-nav {
+    float: left;
+    width: 60%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.my-navbar .right-nav {
+    float: right;
+    font-size: 15px;
+    font-weight: 500;
+    margin: auto;
+}
+
+
+#brand-name {
+    grid-area: logo;
+    text-decoration: none;
+    font-size: 18px;
+    float: left;
+    color: #8551b8;
+    margin-top: 0.3em;
+}
+
+#logout-btn {
+    background: none;
+    border: none;
+    margin: auto;
+    padding: 0.4em 0.7em 0.4em 0.7em;
+}
+
+#logout-btn:hover {
+    background: #ead4ff54;
+    border-radius: 0.3em;
+}
+
+
+.table {
+    margin-top: 3em;
+}
+
+.table a {
+    color: #9a67cb;
+}
+
+.table a:hover {
+    color: #7134ab;
+}
+
+#create-new {
+    text-decoration: none;
+    color: #8551b8;
+    padding: 0.8em 0.7em;
+    font-size: 16px;
+    border-radius: 0.5em;
+    background: #ffffff;
+    border: 1px solid #d6d6d6;
+    transition: all .3s;
+    box-shadow: 3px 3px 12px #c5c5c5, -3px -3px 12px #ffffff;
+}
+
+#create-new:hover {
+    border: 1px solid white;
+    color: #742cbb;
+}
+
+#create-new:active {
+    box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+}
